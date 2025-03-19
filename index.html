@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Portfolio</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      a {
+        color: #0073e6;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+      /* Grid Layout */
+      .portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      /* Sections */
+      section {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      section:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      }
+      section h2 {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+        color: #0073e6;
+      }
+
+      /* Header */
+      header {
+        text-align: center;
+        padding: 40px 20px;
+        background: #0073e6;
+        color: #fff;
+        margin-bottom: 20px;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+      header p {
+        margin: 5px 0 0;
+        font-size: 1.2em;
+      }
+
+      /* Buttons */
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #0073e6;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      .btn:hover {
+        background: #005bb5;
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        padding: 20px;
+        background: #333;
+        color: #fff;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>K.V.Shivaprasad</h1>
+      <p>Frontend Developer | Aspiring Innovator</p>
+    </header>
+
+    <!-- Portfolio Grid -->
+    <div class="portfolio-grid">
+      <!-- About Section -->
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hi, I'm [Your Name], a passionate frontend developer with experience
+          in building responsive and user-friendly websites. I specialize in
+          HTML, CSS, JavaScript, and modern frameworks like React.js. I'm always
+          eager to learn and contribute to innovative projects.
+        </p>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div>
+          <h3>1. Responsive Portfolio Website</h3>
+          <p>
+            A fully responsive portfolio website built using HTML, CSS, and
+            JavaScript. Features smooth scrolling and a dark mode toggle.
+          </p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div>
+          <h3>2. Weather App</h3>
+          <p>
+            A weather application built with React.js and integrated with a
+            third-party weather API. Displays real-time weather data.
+          </p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>React.js, Bootstrap, Tailwind CSS</li>
+          <li>Git, GitHub, VS Code</li>
+          <li>Responsive Design, REST APIs</li>
+        </ul>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me for collaborations or opportunities!</p>
+        <p>
+          Email:
+          <a href="mailto:youremail@example.com">youremail@example.com</a>
+        </p>
+        <p>
+          LinkedIn:
+          <a href="https://linkedin.com/in/yourprofile" target="_blank"
+            >linkedin.com/in/yourprofile</a
+          >
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/yourusername" target="_blank"
+            >github.com/yourusername</a
+          >
+        </p>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
